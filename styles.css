@@ -4,18 +4,33 @@ p::before {
     content: "()=>";
 }
 
+p{
+    width: 60ch;
+}
+
  #blue{
+    width: 50vw;
     background-color: blue;
  }
 
  #red {
+    width: 50%;
     background-color: red;
  }
 
  #green {
+    width: 10rem;
     background-color: green;
  }
 
+div {
+    margin: 10px;
+    color: white;
+}
+ #parent {
+    width: 50%;
+    border: 2px solid black;
+ }
 
 Below are examples of Pseudo classes
 
