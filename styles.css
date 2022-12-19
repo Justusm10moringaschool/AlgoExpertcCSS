@@ -1,3 +1,25 @@
+Below are examples of pseudo Elements
+
+p::before {
+    content: "()=>";
+}
+
+
+
+
+Below are examples of Pseudo classes
+
+p:nth-of-type(1){
+    color: midnightblue;
+}
+/* p:first-of-type {
+    color: orange;
+} */
+
+p:first-child{
+    color: purple;
+}
+
 input:focus {
     outline: 2px solid blueviolet;
 }
